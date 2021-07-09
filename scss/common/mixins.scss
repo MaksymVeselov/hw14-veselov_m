@@ -1,0 +1,16 @@
+@mixin text ($color) {
+   font-size: 35px;
+   line-height: 24px;
+   font-weight: 900;
+   text-transform: uppercase;
+   letter-spacing: -0.025em;
+   color: $color;
+   padding-bottom: 10px;
+}
+@mixin text_P ($second_text) {
+   font-size: 16px;
+   font-weight: 300;
+   text-transform: none;
+   letter-spacing: normal;
+   color: $second_text;
+}
